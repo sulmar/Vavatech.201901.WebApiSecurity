@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.WebApiSecurity", "Vavatech.WebApiSecurity\Vavatech.WebApiSecurity.csproj", "{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuthentication", "BasicAuthentication\BasicAuthentication.csproj", "{9BE02E65-596E-49C4-8AFF-3137576D05CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthentication", "JWTAuthentication\JWTAuthentication.csproj", "{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE02E65-596E-49C4-8AFF-3137576D05CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE02E65-596E-49C4-8AFF-3137576D05CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE02E65-596E-49C4-8AFF-3137576D05CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE02E65-596E-49C4-8AFF-3137576D05CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

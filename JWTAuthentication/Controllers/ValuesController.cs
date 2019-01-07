@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace Vavatech.WebApiSecurity.Controllers
+namespace JWTAuthentication.Controllers
 {
     [Authorize]
     public class ValuesController : ApiController
@@ -17,8 +17,6 @@ namespace Vavatech.WebApiSecurity.Controllers
         }
 
         // GET api/values/5
-
-        [AllowAnonymous]
         public string Get(int id)
         {
             return "value";
