@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.WebApiSecurity", "Vavatech.WebApiSecurity\Vavatech.WebApiSecurity.csproj", "{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3FB2E83-1E90-4C62-AD14-8D0E912F8338}
+	EndGlobalSection
+EndGlobal
