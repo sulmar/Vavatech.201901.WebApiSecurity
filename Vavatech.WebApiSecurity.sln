@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.WebApiSecurity", "Vavatech.WebApiSecurity\Vavatech.WebApiSecurity.csproj", "{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuthentication", "BasicAuthentication\BasicAuthentication.csproj", "{9BE02E65-596E-49C4-8AFF-3137576D05CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthentication", "JWTAuthentication\JWTAuthentication.csproj", "{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuthAuthentication", "OAuthAuthentication\OAuthAuthentication.csproj", "{C8EB1D70-4B79-4FA5-89FC-D09CD7A7D329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAuthentication", "GoogleAuthentication\GoogleAuthentication.csproj", "{A5F1C9FC-6474-4608-9009-0EEC7774EF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiService", "WebApiService\WebApiService.csproj", "{6C757C9F-75C6-4034-BA28-D9BE263F9046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForms", "WebForms\WebForms.csproj", "{93A2E807-1F01-44B0-8937-45BB8EF54B80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC2E7E0B-813E-4E55-A55F-DAF2F436EDA7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9BE02E65-596E-49C4-8AFF-3137576D05CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9BE02E65-596E-49C4-8AFF-3137576D05CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BE02E65-596E-49C4-8AFF-3137576D05CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +29,22 @@ Global
 		{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E84EA8-9CF0-4B15-B026-E27E3D95ACC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EB1D70-4B79-4FA5-89FC-D09CD7A7D329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EB1D70-4B79-4FA5-89FC-D09CD7A7D329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EB1D70-4B79-4FA5-89FC-D09CD7A7D329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EB1D70-4B79-4FA5-89FC-D09CD7A7D329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F1C9FC-6474-4608-9009-0EEC7774EF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F1C9FC-6474-4608-9009-0EEC7774EF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F1C9FC-6474-4608-9009-0EEC7774EF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F1C9FC-6474-4608-9009-0EEC7774EF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C757C9F-75C6-4034-BA28-D9BE263F9046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C757C9F-75C6-4034-BA28-D9BE263F9046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C757C9F-75C6-4034-BA28-D9BE263F9046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C757C9F-75C6-4034-BA28-D9BE263F9046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A2E807-1F01-44B0-8937-45BB8EF54B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A2E807-1F01-44B0-8937-45BB8EF54B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A2E807-1F01-44B0-8937-45BB8EF54B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A2E807-1F01-44B0-8937-45BB8EF54B80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

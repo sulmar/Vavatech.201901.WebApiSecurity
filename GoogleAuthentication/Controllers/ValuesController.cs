@@ -5,9 +5,9 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace Vavatech.WebApiSecurity.Controllers
+namespace GoogleAuthentication.Controllers
 {
-  //  [Authorize]
+    [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
@@ -17,8 +17,6 @@ namespace Vavatech.WebApiSecurity.Controllers
         }
 
         // GET api/values/5
-
-        [AllowAnonymous]
         public string Get(int id)
         {
             return "value";

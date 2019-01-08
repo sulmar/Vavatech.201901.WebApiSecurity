@@ -20,6 +20,7 @@ namespace JWTAuthentication.Controllers
 
         [AllowAnonymous]
         [HttpPost]
+        [Route("token")]
         public IHttpActionResult GenerateToken([FromBody] User userParam)
         {
             User user = usersService.Authenticate(userParam.Username, userParam.Password);
